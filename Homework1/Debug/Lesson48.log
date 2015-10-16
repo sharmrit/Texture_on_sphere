@@ -1,0 +1,22 @@
+﻿Build started 5/4/2014 7:38:24 PM.
+     1>Project "C:\Users\sms_admin\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Lesson48.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\sms_admin\Documents\Visual Studio 2012\Projects\Lesson48\Opengl\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ArcBall.cpp imageloader.cpp TrackingBall.cpp Utility.cpp
+         Utility.cpp
+         TrackingBall.cpp
+     1>c:\users\sms_admin\documents\visual studio 2012\projects\consoleapplication1\trackingball.cpp(134): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sms_admin\documents\visual studio 2012\projects\consoleapplication1\trackingball.cpp(138): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         imageloader.cpp
+         ArcBall.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Lesson48.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\sms_admin\Documents\Visual Studio 2012\Projects\Lesson48\Opengl\lib" opengl32.lib glut32.lib glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\Lesson48.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Lesson48.lib" /MACHINE:X86 /SAFESEH:NO .\Debug\ArcBall.obj
+         .\Debug\imageloader.obj
+         .\Debug\TrackingBall.obj
+         .\Debug\Utility.obj
+         Lesson48.vcxproj -> C:\Users\sms_admin\Documents\Visual Studio 2012\Projects\ConsoleApplication1\.\Debug\Lesson48.exe
+     1>Done Building Project "C:\Users\sms_admin\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Lesson48.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.38

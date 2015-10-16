@@ -1,0 +1,22 @@
+﻿Build started 10/16/2015 4:34:39 PM.
+     1>Project "C:\Users\Riits\Documents\Visual Studio 2012\Projects\Homework1\Homework1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Riits\Documents\Visual Studio 2012\Projects\Homework1\Opengl\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ArcBall.cpp imageloader.cpp TrackingBall.cpp Utility.cpp
+         Utility.cpp
+         TrackingBall.cpp
+     1>c:\users\riits\documents\visual studio 2012\projects\homework1\trackingball.cpp(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\riits\documents\visual studio 2012\projects\homework1\trackingball.cpp(127): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         imageloader.cpp
+         ArcBall.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Homework1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Riits\Documents\Visual Studio 2012\Projects\Homework1\Opengl\lib" opengl32.lib glut32.lib glu32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\Homework1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Homework1.lib" /MACHINE:X86 /SAFESEH:NO .\Debug\ArcBall.obj
+         .\Debug\imageloader.obj
+         .\Debug\TrackingBall.obj
+         .\Debug\Utility.obj
+         Homework1.vcxproj -> C:\Users\Riits\Documents\Visual Studio 2012\Projects\Homework1\.\Debug\Homework1.exe
+     1>Done Building Project "C:\Users\Riits\Documents\Visual Studio 2012\Projects\Homework1\Homework1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.55
